@@ -32,5 +32,6 @@ services:
         value: xlist_
         sync: false
       - key: CDN
-        value: https://npm.elemecdn.com/alist-web@$version/dist
+        # value: https://npm.elemecdn.com/alist-web@$version/dist
+        sync: false
 
